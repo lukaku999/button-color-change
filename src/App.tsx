@@ -8,7 +8,22 @@ function App() {
     <div className="App">
       <div className="App-header">
         {/*the string array containing the colors that will be used to change the button background color*/}
-        <Button colors={['red', 'green', 'blue', 'orange', 'gray', 'black']} />
+        <Button
+          colors={[
+            'red',
+            'green',
+            'blue',
+            'purple',
+            'yellow',
+            'brown',
+            'orange',
+            'gray',
+            'pink',
+            'black',
+            'cyan',
+            'orangered',
+          ]}
+        />
       </div>
     </div>
   );
